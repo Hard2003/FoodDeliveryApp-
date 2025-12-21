@@ -1,0 +1,124 @@
+[
+  {
+    "CategoryName": "Biryani/Rice",
+    "name": "Chicken Biryani",
+    "img": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500",
+    "options": [
+      {
+        "half": "130",
+        "full": "230"
+      }
+    ],
+    "description": "Aromatic basmati rice cooked with tender chicken and spices"
+  },
+  {
+    "CategoryName": "Biryani/Rice",
+    "name": "Veg Biryani",
+    "img": "https://images.unsplash.com/photo-1633945274309-2c16c3cb9fe7?w=500",
+    "options": [
+      {
+        "half": "100",
+        "full": "180"
+      }
+    ],
+    "description": "Fragrant rice with mixed vegetables and aromatic spices"
+  },
+  {
+    "CategoryName": "Starter",
+    "name": "Chicken Wings",
+    "img": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=500",
+    "options": [
+      {
+        "half": "150",
+        "full": "250"
+      }
+    ],
+    "description": "Crispy fried chicken wings with spicy sauce"
+  },
+  {
+    "CategoryName": "Starter",
+    "name": "Paneer Tikka",
+    "img": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=500",
+    "options": [
+      {
+        "half": "120",
+        "full": "200"
+      }
+    ],
+    "description": "Marinated cottage cheese cubes grilled to perfection"
+  },
+  {
+    "CategoryName": "Pizza",
+    "name": "Margherita Pizza",
+    "img": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=500",
+    "options": [
+      {
+        "regular": "200",
+        "medium": "350",
+        "large": "450"
+      }
+    ],
+    "description": "Classic pizza with tomato sauce, mozzarella, and basil"
+  },
+  {
+    "CategoryName": "Pizza",
+    "name": "Pepperoni Pizza",
+    "img": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500",
+    "options": [
+      {
+        "regular": "250",
+        "medium": "400",
+        "large": "550"
+      }
+    ],
+    "description": "Pizza topped with spicy pepperoni slices and cheese"
+  },
+  {
+    "CategoryName": "Burgers",
+    "name": "Chicken Burger",
+    "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500",
+    "options": [
+      {
+        "regular": "120",
+        "large": "180"
+      }
+    ],
+    "description": "Juicy chicken patty with lettuce, tomato, and special sauce"
+  },
+  {
+    "CategoryName": "Burgers",
+    "name": "Veg Burger",
+    "img": "https://images.unsplash.com/photo-1520072959219-c595dc870360?w=500",
+    "options": [
+      {
+        "regular": "100",
+        "large": "150"
+      }
+    ],
+    "description": "Vegetarian patty with fresh vegetables and mayo"
+  },
+  {
+    "CategoryName": "Desserts",
+    "name": "Chocolate Brownie",
+    "img": "https://images.unsplash.com/photo-1607920591413-4ec007e70023?w=500",
+    "options": [
+      {
+        "regular": "80",
+        "large": "120"
+      }
+    ],
+    "description": "Rich chocolate brownie served warm with ice cream"
+  },
+  {
+    "CategoryName": "Desserts",
+    "name": "Ice Cream",
+    "img": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=500",
+    "options": [
+      {
+        "regular": "60",
+        "large": "100"
+      }
+    ],
+    "description": "Creamy ice cream in various flavors"
+  }
+]

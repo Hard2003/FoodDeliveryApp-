@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="40" viewBox="0 0 180 40">
+  <defs>
+    <style>
+      .logo-text { font-family: 'Arial Black', Arial, sans-serif; font-weight: 900; }
+      .food-text { fill: #86efac; font-size: 18px; }
+      .dasher-text { fill: #ffffff; font-size: 18px; }
+      .truck-bg { fill: #dc2626; }
+      .truck-window { fill: #1f2937; }
+      .truck-wheel { fill: #374151; }
+      .truck-detail { fill: #ffffff; }
+      .speed-line { stroke: #86efac; stroke-width: 1.5; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="180" height="40" fill="#1f2937" rx="8"/>
+  
+  <!-- FOOD text -->
+  <text x="12" y="26" class="logo-text food-text">FOOD</text>
+  
+  <!-- Delivery truck icon -->
+  <g transform="translate(75, 8)">
+    <!-- Speed lines -->
+    <line x1="-8" y1="10" x2="-4" y2="10" class="speed-line"/>
+    <line x1="-8" y1="14" x2="-4" y2="14" class="speed-line"/>
+    <line x1="-8" y1="18" x2="-4" y2="18" class="speed-line"/>
+    
+    <!-- Truck body -->
+    <rect x="0" y="8" width="20" height="12" rx="2" class="truck-bg"/>
+    <!-- Truck cab -->
+    <rect x="20" y="5" width="10" height="15" rx="2" class="truck-bg"/>
+    <!-- Window -->
+    <rect x="22" y="7" width="6" height="6" rx="1" class="truck-window"/>
+    <!-- Truck details -->
+    <rect x="2" y="10" width="16" height="1" class="truck-detail"/>
+    <rect x="2" y="13" width="12" height="1" class="truck-detail"/>
+    <!-- Wheels -->
+    <circle cx="4" cy="22" r="2.5" class="truck-wheel"/>
+    <circle cx="25" cy="22" r="2.5" class="truck-wheel"/>
+  </g>
+  
+  <!-- DASH text -->
+  <text x="115" y="26" class="logo-text dasher-text">DASH</text>
+  
+  <!-- Decorative dots -->
+  <circle cx="70" cy="32" r="1.5" fill="#fbbf24"/>
+  <circle cx="75" cy="32" r="1.5" fill="#86efac"/>
+  <circle cx="80" cy="32" r="1.5" fill="#dc2626"/>
+  <circle cx="85" cy="32" r="1.5" fill="#86efac"/>
+  <circle cx="90" cy="32" r="1.5" fill="#fbbf24"/>
+</svg>

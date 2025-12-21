@@ -1,0 +1,162 @@
+.cart-container {
+  min-height: calc(100vh - 60px);
+  background-color: #f8f9fa;
+  padding-bottom: 40px;
+}
+
+.empty-cart-container {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-cart {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.restaurant-info-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.restaurant-info-box h5 {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.cart-items-section {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.cart-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-control button {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.address-section,
+.payment-section,
+.instructions-section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.address-card {
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.address-card:hover {
+  border-color: #ff6b35;
+  background-color: #fff5f2;
+}
+
+.address-card.selected {
+  border-color: #ff6b35;
+  background-color: #fff5f2;
+}
+
+.address-card .form-check-label {
+  cursor: pointer;
+  width: 100%;
+}
+
+.order-summary {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  top: 20px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.summary-row.total {
+  font-size: 1.2rem;
+  padding-top: 16px;
+}
+
+.modal-backdrop-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+}
+
+.modal-content-custom {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-content-custom h5 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .cart-item-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .order-summary {
+    position: static !important;
+    margin-top: 20px;
+  }
+
+  .modal-content-custom {
+    padding: 20px;
+  }
+}
