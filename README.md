@@ -1,6 +1,6 @@
 # 🍕 Food Delivery App
 
-A full-stack MERN application that provides a comprehensive food delivery platform with restaurant management, user authentication, cart functionality, and order processing.
+A learning project built with the MERN stack to explore food delivery platform concepts including basic user authentication, restaurant browsing, and cart functionality.
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
@@ -8,58 +8,43 @@ A full-stack MERN application that provides a comprehensive food delivery platfo
 ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## 🌟 Features
+## 🌟 Current Features
 
-### 🔐 Authentication & Authorization
-- **User Registration & Login** with JWT-based authentication
-- **Password Hashing** using bcryptjs for security
-- **Protected Routes** for authenticated users only
-- **Role-based Access Control** (Customer/Restaurant Owner)
+### 🔐 Basic Authentication
+- User registration and login with JWT
+- Password hashing for security
+- Basic protected routes
 
-### 🏪 Restaurant Management
-- **Restaurant Listings** with detailed information
-- **Menu Management** with categories and pricing
-- **Restaurant Search & Filtering**
-- **Operating Hours** and availability status
-- **Image Support** for restaurants and menu items
+### 🏪 Restaurant Browsing
+- View available restaurants
+- Browse menu items
+- Basic restaurant information display
 
-### 🛒 Shopping Cart
-- **Add to Cart** functionality with quantity management
-- **Real-time Cart Updates** using React Context
-- **Persistent Cart** with localStorage integration
-- **Cart Summary** with pricing calculations
-- **Remove/Update Items** functionality
-
-### 📦 Order Management
-- **Order Placement** with delivery address
-- **Order History** tracking for users
-- **Payment Integration** (COD, UPI, Card options)
-- **Order Status Updates**
+### 🛒 Shopping Cart (In Development)
+- Add items to cart
+- Basic cart functionality
+- Local storage integration
 
 ### 🎨 User Interface
-- **Responsive Design** using Bootstrap 5
-- **Modern UI Components** with Material-UI
-- **Dark/Light Theme Support**
-- **Mobile-First Approach**
-- **Interactive Carousel** for featured items
+- Responsive design using Bootstrap
+- React-based component structure
+- Basic navigation
 
 ## 🛠️ Technology Stack
 
 ### Frontend
-- **React 18** - Modern React with hooks and context
-- **React Router DOM** - Client-side routing
-- **Bootstrap 5** - Responsive CSS framework
-- **Material-UI** - React component library
-- **React Bootstrap** - Bootstrap components for React
+- **React** - Frontend library
+- **React Router** - Routing
+- **Bootstrap** - CSS framework
+- **React Context** - State management
 
 ### Backend
 - **Node.js** - Runtime environment
 - **Express.js** - Web framework
-- **MongoDB** - NoSQL database
-- **Mongoose** - MongoDB object modeling
-- **JWT** - JSON Web Tokens for authentication
+- **MongoDB** - Database
+- **Mongoose** - ODM for MongoDB
+- **JWT** - Authentication tokens
 - **bcryptjs** - Password hashing
-- **CORS** - Cross-origin resource sharing
 
 ### Development Tools
 - **Nodemon** - Auto-restart development server
@@ -195,22 +180,21 @@ npm start
 - `POST /api/order/place` - Place new order (Auth required)
 - `GET /api/order/user` - Get user orders (Auth required)
 
-## 🎯 Usage
+## 🎯 Current Status
 
-### For Customers:
-1. **Register/Login** to your account
-2. **Browse Restaurants** on the home page
-3. **Select a Restaurant** to view their menu
-4. **Add Items** to your cart with preferred quantities
-5. **Review Cart** and proceed to checkout
-6. **Place Order** with delivery address and payment method
+This is a learning project and is currently under development. Basic functionality includes:
 
-### For Restaurant Owners:
-1. **Register** as a restaurant owner
-2. **Create Restaurant Profile** with details and images
-3. **Add Menu Items** with categories and pricing
-4. **Manage Orders** and update order status
-5. **View Analytics** and order history
+### Working Features:
+- User registration and authentication
+- Restaurant browsing
+- Menu display
+- Basic cart functionality
+
+### In Development:
+- Order processing
+- Payment integration
+- Advanced cart management
+- User dashboard
 
 ## 🧪 Testing Credentials
 
@@ -226,50 +210,21 @@ npm start
 
 ## 📱 Screenshots
 
-<!-- Add screenshots here -->
-*Screenshots will be added soon*
+![App Screenshot 1](Screenshots/1.jpg)
+![App Screenshot 2](Screenshots/2.jpg)
+![App Screenshot 3](Screenshots/3.jpg)
 
-## 🔮 Future Implementation
+## 🔮 Planned Features
 
-### Phase 1 - Enhanced Features
-- [ ] **Real-time Order Tracking** with live status updates
-- [ ] **Push Notifications** for order updates
-- [ ] **Advanced Search & Filters** (cuisine type, price range, ratings)
-- [ ] **User Reviews & Ratings** system
-- [ ] **Favorites/Wishlist** functionality
-- [ ] **Order Rating & Feedback**
+The following features are planned for future development:
 
-### Phase 2 - Advanced Functionality
-- [ ] **Payment Gateway Integration** (Stripe, Razorpay)
-- [ ] **SMS & Email Notifications**
-- [ ] **Google Maps Integration** for delivery tracking
-- [ ] **Multi-language Support**
-- [ ] **Advanced Admin Dashboard**
-- [ ] **Restaurant Analytics & Reports**
-
-### Phase 3 - Mobile & Performance
-- [ ] **React Native Mobile App**
-- [ ] **Progressive Web App (PWA)**
-- [ ] **Performance Optimization** with caching
-- [ ] **SEO Optimization**
-- [ ] **Automated Testing** (Jest, Cypress)
-- [ ] **Docker Containerization**
-
-### Phase 4 - AI & Machine Learning
-- [ ] **AI-powered Food Recommendations**
-- [ ] **Chatbot for Customer Support**
-- [ ] **Predictive Analytics** for demand forecasting
-- [ ] **Dynamic Pricing** based on demand
-- [ ] **Image Recognition** for food items
-- [ ] **Voice Ordering** capability
-
-### Phase 5 - Business Features
-- [ ] **Multi-vendor Support**
-- [ ] **Subscription Plans** for restaurants
-- [ ] **Loyalty Programs** and rewards
-- [ ] **Referral System**
-- [ ] **Social Media Integration**
-- [ ] **API for Third-party Integration**
+- **Order Processing** - Complete order placement and tracking
+- **Payment Integration** - Multiple payment options
+- **Restaurant Dashboard** - Management interface for restaurant owners  
+- **Advanced Search** - Filter by cuisine, price, ratings
+- **User Reviews** - Rating and review system
+- **Real-time Updates** - Live order status tracking
+- **Mobile Optimization** - Enhanced mobile experience
 
 ## 🤝 Contributing
 
@@ -295,33 +250,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Hard Patel**
-- GitHub: [@hardpatel](https://github.com/hardpatel)
-- Email: hardpatel@example.com
+- GitHub: [@Hard2003](https://github.com/Hard2003)
 
 ## 🙏 Acknowledgments
 
-- **Material-UI** for beautiful React components
-- **Bootstrap** for responsive design
-- **MongoDB** for flexible database
-- **Express.js** for robust backend framework
-- **React** for powerful frontend library
-
-## 📞 Support
-
-If you like this project, please give it a ⭐ star on GitHub!
-
-For support, email hardpatel@example.com or create an issue on GitHub.
+This project was built as a learning exercise using:
+- **React** for the frontend
+- **Node.js & Express** for the backend  
+- **MongoDB** for the database
+- **Bootstrap** for styling
 
 ---
 
-**Made with ❤️ by Hard Patel** 
-<img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-<img alt="ReactJS" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-<img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img alt="ExpressJS" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-</div>
+**A Learning Project by Hard Patel**
 
 
 ## Features-
@@ -348,9 +289,9 @@ The Home screen displays the list of food items in a grid view, with each food i
 
 
 
-## Live-Demo-
+## 📖 About This Project
 
-[Food-Delivery-App-Live]()
+This is a learning project built to understand the MERN stack and explore food delivery app concepts. The project demonstrates basic web development skills and common e-commerce patterns.
 
 
 ## Prerequisites
